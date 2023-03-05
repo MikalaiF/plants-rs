@@ -1,0 +1,334 @@
+.container {
+   max-width: 330px;
+   margin: 0 auto;
+   padding: 0 25px;
+}
+
+/*HEADER STYLE START*/
+.container__header {
+   min-height: 47px;
+   padding: 36px 25px;
+   align-content: flex-start;
+}
+
+.wrapper_nav {
+   background: #EDF2EC;
+   z-index: 11;
+   width: 100%;
+   height: 100%;
+}
+
+.header_nav {
+   width: 100%;
+   height: 100%;
+   position: fixed;
+   top: 0;
+   left: 0;
+   background: #EDF2EC;
+   z-index: 10;
+   transform: translateY(-100%);
+   transition: .2s all linear;
+}
+
+.header_nav_active {
+   transform: translateY(0);
+}
+
+.header_item {
+   flex-direction: column;
+   width: 100%;
+}
+
+.header_item-list {
+   padding-right: 0;
+   padding-left: 30px;
+   margin-bottom: 10px;
+}
+
+.header_item-list :last-child {
+   margin-bottom: 0;
+}
+
+.header_item-link,
+.header_item-link:hover,
+.header_item-link:focus {
+   font-size: 42px;
+   line-height: 48px;
+}
+
+/*BURGER STYLE START*/
+.header_nav_close {
+   width: 40px;
+   right: 40px;
+   position: absolute;
+   top: 45px;
+   right: 20px;
+   z-index: 11;
+   cursor: pointer;
+   margin: 5px;
+}
+
+.header_nav_close-line {
+   display: block;
+   width: 100%;
+   height: 2px;
+   background-color: #717171;
+   position: absolute;
+   top: 50%;
+}
+
+.header_nav_close-line:first-child {
+   transform: translateY(-50%) rotate(45deg);
+}
+
+.header_nav_close-line:last-child {
+   transform: translateY(-50%) rotate(-45deg);
+}
+
+.burger_menu {
+   display: block;
+   width: 40px;
+   height: 24px;
+   cursor: pointer;
+   margin-top: -12px
+}
+
+.burger_menu :last-child {
+   margin-bottom: 0;
+}
+
+.burger_menu-line {
+   display: block;
+   width: 40px;
+   height: 2px;
+   background: #717171;
+   margin-bottom: 6px;
+}
+
+/*BURGER STYLE END*/
+/*HEADER STYLE END*/
+
+
+/*WELCOM STYLE START*/
+.welcom_img {
+   display: none;
+}
+
+.welcom_title {
+   font-size: 25px;
+   line-height: 35px;
+   margin-top: 3px;
+   margin-bottom: 20px;
+}
+
+.welcom_desc {
+   padding-left: 0px;
+   margin-bottom: 25px;
+}
+
+.welcom_btm {
+   font-size: 10px;
+   line-height: 20px;
+   padding: 6px 16px;
+   margin-bottom: 23px;
+}
+
+/*WELCOM STYLE END*/
+
+
+/*ABOUT STYLE START*/
+.about_title {
+   font-size: 25px;
+   line-height: 33px;
+   padding-top: 24px;
+   margin-bottom: 0;
+}
+
+.about_desc {
+   font-size: 15px;
+   line-height: 25px;
+   margin-top: 9px;
+   margin-bottom: 0;
+}
+
+.about_img {
+   max-width: 150px;
+   margin: -5px auto 24px;
+}
+
+/*ABOUT STYLE END*/
+
+
+/*SERVICE STYLE START*/
+.service_title {
+   font-size: 25px;
+   line-height: 33px;
+   max-width: 187px;
+   padding-top: 10px;
+   margin-bottom: 24px;
+}
+
+.service_btn-item:last-child {
+   margin-top: 6px;
+}
+
+.service_btn-item,
+.service_btn-item:hover {
+   font-size: 15px;
+   line-height: 20px;
+   padding: 8px 28px;
+   margin-right: 4px;
+   min-height: 35px;
+   max-width: 121px;
+}
+
+.service_info {
+   margin-bottom: 36px;
+}
+
+.service_img {
+   margin: 0 auto 34px;
+}
+
+.service_img:last-child {
+   margin-bottom: -5px;
+}
+
+.service_pic {
+   max-width: 279px;
+}
+
+
+/*SERVICE STYLE END*/
+
+/*PRICES STYLE START*/
+.prices_title {
+   font-size: 25px;
+   line-height: 30px;
+   text-align: center;
+   margin: -75px 14px 37px;
+}
+
+.prices_item {
+   max-width: 224px;
+
+   margin: 0 53px;
+}
+
+.prices_accordion {
+   display: flex;
+   justify-content: space-around;
+   font-size: 15px;
+   max-width: 180px;
+   height: 50px;
+   margin: 27px 0 0 22px;
+   padding: 0;
+}
+
+.prices_accordion:nth-child(1) {
+   margin-bottom: 0;
+}
+
+.prices_accordion:nth-child(3) {
+   margin: 14px 0px -13px 22px;
+}
+
+.accordion_pic {
+   margin-right: 5px;
+
+}
+
+.prices_block_title {
+   font-size: 20px;
+   max-width: 230px;
+   text-align: center;
+   margin-left: 51px
+}
+
+.block_call {
+   padding-top: 17px;
+}
+
+.prices_block_btm {
+   margin: 22px 56px 40px 0;
+   font-size: 15px;
+   line-height: 20px;
+   text-align: center;
+   padding: 6px 24px;
+}
+
+.prices_block_img {
+   display: none;
+}
+
+.accordeon {
+   max-width: 180px;
+   padding: 0;
+   margin: 0 20px 8px 22px;
+}
+
+.accordeon_name {
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 15px;
+   line-height: 20px;
+   color: #000000;
+   padding-left: 30px;
+}
+
+.accordeon_info {
+   border-radius: 20px;
+   padding: 0 8px;
+}
+
+
+
+/*PRICES STYLE END*/
+
+
+/*CONTACTS STYLE START*/
+.contacts_title {
+   font-size: 25px;
+   line-height: 33px;
+   text-align: center;
+   margin: 25px 0px 0 104px;
+}
+
+.select_select {
+   max-width: 300px;
+   margin: 81px 13px 29px;
+}
+
+.contacts_select {
+   width: 300px;
+}
+
+.contacts_accordion_pic {
+   margin-right: 14px;
+}
+
+.contacts_img {
+   max-width: 100px;
+   margin: 250px 0 0px 113px;
+}
+
+.city-btn {
+   margin: 10px 82px;
+   padding: 0;
+
+}
+
+/*CONTACTS STYLE END*/
+
+
+/*FOOTER STYLE START*/
+.footer_git {
+   margin-top: -12px;
+}
+
+.footer_social_list {
+   margin-top: 0;
+}
+
+/*FOOTER STYLE END*/

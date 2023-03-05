@@ -1,0 +1,262 @@
+.container {
+   max-width: 668px;
+   margin: 0 auto;
+   padding: 0 50px;
+}
+
+/*HEADER STYLE START*/
+.container__header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   flex-wrap: wrap;
+   min-height: 47px;
+   padding: 35px 50px;
+}
+
+.header_logo {
+   align-items: center;
+}
+
+.header_logo-title {
+   font-family: 'Inika';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 21px;
+
+   color: #000000;
+}
+
+.header_logo-pic {
+   margin: 0 -1px 10px;
+}
+
+.header_item {
+   padding-right: 4px;
+}
+
+/*HEADER STYLE END*/
+
+/*WELCOM STYLE START*/
+.container_welcom {
+   flex-direction: row-reverse;
+   align-items: flex-start;
+   padding-top: 8px;
+}
+
+.welcom_img {
+   max-width: 290px;
+   padding-top: 22px;
+}
+
+.welcom_pic {
+   max-width: 100%;
+}
+
+.welcom_info {
+   max-width: 346px;
+}
+
+.welcom_title {
+   font-size: 35px;
+   margin-bottom: 31px;
+}
+
+.welcom_desc {
+   font-size: 16px;
+   line-height: 25px;
+   margin-bottom: 35px;
+   padding-left: 5px;
+}
+
+.welcom_btm {
+   margin-bottom: 70px;
+}
+
+/*WELCOM STYLE END*/
+
+/*ABOUT STYLE START*/
+.about_info {
+   max-width: 100%;
+}
+
+.about_title {
+   max-width: 423px;
+   font-size: 35px;
+   line-height: 46px;
+   text-align: center;
+   margin: 6px auto 46px;
+   padding-left: 19px;
+}
+
+.about_img {
+   max-width: 250px;
+   margin: 44px auto 91px;
+}
+
+/*ABOUT STYLE END*/
+
+
+/*SERVICE STYLE START*/
+.service_info {
+   margin-bottom: 38px;
+}
+
+.service_title {
+   font-size: 35px;
+   line-height: 46px;
+   padding-top: 31px;
+   padding-bottom: 13px;
+   padding: 31px 0 13px;
+}
+
+.service_btn-item {
+   margin-right: 34px;
+   padding: 11px 40px;
+}
+
+.service_content {
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   padding-bottom: 34px;
+}
+
+.service_content:last-child {
+   margin-bottom: 100px;
+}
+
+.service_img {
+   height: 450px;
+}
+
+.service_pic-desc {
+   height: 100px;
+}
+
+.service_pic img {
+   width: 280px;
+   height: 350px;
+   overflow: hidden;
+   object-fit: cover;
+   border-radius: 20px 20px 0px 0px;
+}
+
+.service_pic {
+   padding-top: 2px
+}
+
+.service_img {
+   margin-bottom: 38px;
+}
+
+.pic-desc-title {
+   margin: 10px 80px;
+}
+
+.pic-desc-desc {
+   width: 201px;
+   margin: 0 0 0 38px;
+
+}
+
+/*SERVICE STYLE END*/
+
+
+/*PRICES STYLE START*/
+
+
+.prices_title {
+   font-size: 35px;
+   line-height: 42px;
+   margin: -59px 14px 56px;
+
+}
+
+
+
+.block_call {
+   padding-top: 39px;
+}
+
+.prices_block_title {
+   font-size: 25px;
+   line-height: 35px;
+   max-width: 296px;
+}
+
+.prices_block_btm {
+   margin-top: 30px;
+   margin-right: 2px;
+}
+
+.prices_block_img {
+   margin-top: 30px;
+}
+
+/*PRICES STYLE END*/
+
+
+/*CONTACTS STYLE START*/
+.container__contacts {
+   flex-direction: column-reverse;
+   margin-top: 77px;
+}
+
+.contacts_title {
+   order: 2;
+   margin: 40px auto 0px;
+}
+
+.select_select {
+   margin-left: 109px;
+}
+
+.contacts_select {
+   margin-top: 101px;
+}
+
+.contacts_img {
+   width: 200px;
+}
+
+.contacts_img {
+   margin: 268px 0 0px 244px;
+}
+
+
+/*CONTACTS STYLE END*/
+
+
+/*FOOTER STYLE START*/
+.container__footer {
+   flex-direction: column;
+   align-content: center;
+   align-items: center;
+
+}
+
+.footer_git {
+   padding-bottom: 21px;
+}
+
+.footer_git_symbl,
+.footer_rs_symbl {
+   line-height: 24px;
+}
+
+.footer_git_symbl {
+   margin-top: 30px;
+}
+
+.footer_git:first-child {
+   margin-left: 13px;
+}
+
+.footer_rs {
+   padding-bottom: 21px;
+}
+
+
+/*FOOTER STYLE END*/
